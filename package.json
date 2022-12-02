@@ -11,6 +11,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.12",
 		"eslint": "^8.16.0",
@@ -27,6 +28,9 @@
 	"type": "module",
 	"dependencies": {
 		"@healthtree/firestore-join": "^0.5.11",
-		"firebase": "^9.12.1"
+		"@sveltejs/adapter-static": "^1.0.0-next.48",
+		"@tailwindcss/forms": "^0.5.3",
+		"date-fns": "^2.29.3",
+		"firebase": "^9.10.0"
 	}
 }

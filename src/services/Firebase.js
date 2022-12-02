@@ -5,7 +5,7 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import 'firebase/compat/functions';
 import 'firebase/compat/storage';
-import Env from '$services/Env';
+import Env from './Env.js';
 import { browser } from '$app/environment';
 
 export let app;
